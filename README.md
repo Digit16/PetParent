@@ -4,6 +4,14 @@ Find hotel for your pet or look for pet ready for adoption!
 
 ![Animal readme picture](animal-readme-pic.jpg)
 
+## Usage 💡
+
+...
+
+## About 💁📙
+
+...
+
 ## TODO 📝
 
 List of tasks to do:
