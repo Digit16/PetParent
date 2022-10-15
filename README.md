@@ -35,3 +35,12 @@ List of tasks to do:
 Models
 Post: DateTimeField, author, categorie (choices), [option: hotel/person], location(lat, long),
 description, [optional: imageField]
+
+## Authors 👷👷👷‍♀️
+
+If You have any suggestion or would like to contribute
+drop us a line at: rojberr@outlook.com
+
+rojberr
+Digit16
+zuzzanna
