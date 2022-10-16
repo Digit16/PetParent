@@ -37,6 +37,7 @@ REST_FRAMEWORK = {
 
 INSTALLED_APPS = [
     'rest_framework',
+    'posts.apps.PostsConfig',
     'polls.apps.PollsConfig',
     'django.contrib.admin',
     'django.contrib.auth',

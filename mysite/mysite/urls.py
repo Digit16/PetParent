@@ -33,6 +33,7 @@ urlpatterns = [
     # path('api/hello', views.HelloView.as_view()),
     path('api-auth/', include('rest_framework.urls', namespace='rest_framework')),
     path('polls/', include('polls.urls')),
+    path('posts/', include('posts.urls')),
     path('current_user/', views.current_user),
     path('register/', views.signup),
     path('admin/', admin.site.urls),
