@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>PetParent - offers</title>
+</head>
+<body>
+
+    {% for post in posts %}
+        <article>
+        <fieldset>
+          <div>
+            <a href="#">{{ post.author }}</a>
+            <small>| {{ post.date_posted|date:"d M Y, P" }}</small>
+            <h2><a href="{% url 'posts:posts-detail' post.pk %}">{{ post.title }}</a></h2>
+            <p>{{ post.description|truncatewords:35 }}</p>
+          </div>
+        </fieldset>
+        </article>
+    {% endfor %}
+
+</body>
+</html>
